@@ -1,6 +1,7 @@
 public class Autopen extends Pen {
     private boolean isOpen;
     
+    
     public Autopen() {
         super(capacity);
         this.isOpen = false;

@@ -23,7 +23,7 @@ public class Pen extends WritingUtencil{
     }
     
     public void write(Paper paper, String content) {
-        throws Throwable
+        throws WritingUtencilException
         {
             if ( this.amount == 0 ) {
                 // throw new OutOfInkException();
